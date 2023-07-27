@@ -24,7 +24,7 @@ def id3(df, target_attribute, attribute_names, default_class=None):
         
         return tree
     
-df=pd.read_csv("id3.csv")
+df=pd.read_csv("traintennis.csv")
 
 attribute_names=df.columns.tolist()
 print("List of attribut name")
